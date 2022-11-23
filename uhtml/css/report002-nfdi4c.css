@@ -409,7 +409,7 @@ h2.booksubtitle {
   font-family: "Roboto Slab", sans-serif;
   font-size: 30px;
   font-weight: 300!important;
-  color:#fff;
+  color: #fff;
   margin: 0.1em 0 1em 0;
 
 }
@@ -431,7 +431,7 @@ h4.bookversion {
 h1.part {
   page-break-before: always!important;
   page-break-after: always!important;
-  color:#6B0003;
+  color: #670001;
   margin-top:0;
 }
 h1.part:before {
