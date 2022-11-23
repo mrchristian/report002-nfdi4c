@@ -65,14 +65,16 @@
 .content strong {
     color: inherit;
 }
+
 /* Frontmatter*/
-.content .markdown-section div.titlepage {/*background-image: url("https://raw.githubusercontent.com/mrchristian/quick-start/05c5b3dd2bdbdfd785bb158752e3bd3c7b415c66/assets/logo-gfm.png");
+.content .markdown-section div.titlepage {/*background-image: url("https://raw.githubusercontent.com/mrchristian/Fidus-Book-Style-Report001/d6232786dc7e4c111f96bdf73d9d9e21916d6d17/images/image.jpg");
 background-position: bottom;
 background-size: 100%;
 background-repeat: no-repeat;*/
   background-image: none;
   height: 100%;
 }
+
 .markdown-section h1.booktitle {
   margin:0;
   border: none;
