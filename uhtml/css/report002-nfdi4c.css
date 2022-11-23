@@ -431,7 +431,7 @@ h4.bookversion {
 h1.part {
   page-break-before: always!important;
   page-break-after: always!important;
-  color: #000;
+  color:#6B0003;
   margin-top:0;
 }
 h1.part:before {
