@@ -1,4 +1,4 @@
-## ADA Book Template
+## Report002 NFDI4C Book Style
 
 See template support information [here](/about-ada-book-template/readme.md).
 
