@@ -122,7 +122,7 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
 @page :first {
   size: 210mm 297mm;
   /* background-image: linear-gradient(#e3e3e3,#e3e3e3 80%, #ffffff 10%); */
-  background-image: url(media/cover.jpg); 
+  background-image: url(../cover/cover.jpg); 
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 210mm 297mm;
@@ -1217,7 +1217,7 @@ ol.upper-latin {
     content: ' ';
 }
 
-section[role=doc-endnotes]:first-of-type::before {
+/*section[role=doc-endnotes]:first-of-type::before {
     content: 'Footnotes';
     display: block;
     font-family: "Inter", sans-serif;
@@ -1227,7 +1227,7 @@ section[role=doc-endnotes]:first-of-type::before {
     border-bottom: 1px solid black;
     height: 2em;
     margin-bottom: 1em;
-  }
+  }*/
 /*.epub nav li a:hover {
   border-bottom: 1px solid;
 }*/
