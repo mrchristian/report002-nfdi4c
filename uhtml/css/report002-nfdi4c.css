@@ -1,79 +1,94 @@
 @charset "UTF-8";
+
+@font-face {
+font-family: "Playfair Display";
+font-weight: bold;
+font-style: normal;
+src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url(PlayfairDisplay-Bold.ttf) format('ttf');
+}
+
 @font-face {
 font-family: "Inter";
 font-weight: 400;
 font-style: normal;
-src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf) format('ttf');
+src: local('Inter Regular'), local('Inter-Regular'), url(Inter-Regular.ttf) format('ttf');
 }
 
 @font-face {
     font-family: "Inter";
     font-weight: 400;
     font-style: italic;
-    src: local('Inter Italic'), local('Inter-Italic'), url(media/Inter-Italic.ttf) format('truetype');
+    src: local('Inter Italic'), local('Inter-Italic'), url(Inter-Italic.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Inter";
     font-weight: bold;
     font-style: normal;
-    src: local('Inter Bold'), local('Inter-Bold'), url(media/Inter-Bold.ttf) format('truetype');
+    src: local('Inter Bold'), local('Inter-Bold'), url(Inter-Bold.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Inter";
     font-weight: bold;
     font-style: italic;
-    src: local('Inter Bold Italic'), local('Inter-BoldItalic'), url(media/Inter-BoldItalic.ttf) format('truetype');
+    src: local('Inter Bold Italic'), local('Inter-BoldItalic'), url(Inter-BoldItalic.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Inter";
     font-weight: 500;
     font-style: normal;
-    src: local('Inter Medium'), local('Inter-Medium'), url(media/Inter-Medium.ttf) format('truetype');
+    src: local('Inter Medium'), local('Inter-Medium'), url(Inter-Medium.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Inter";
     font-weight: 500;
     font-style: italic;
-    src: local('Inter Medium Italic'), local('Inter-MediumItalic'), url(media/Inter-MediumItalic.ttf) format('truetype');
+    src: local('Inter Medium Italic'), local('Inter-MediumItalic'), url(Inter-MediumItalic.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Inter";
     font-weight: 600;
     font-style: normal;
-    src: local('Inter SemiBold'), local('Inter-SemiBold'), url(media/Inter-SemiBold.ttf) format('truetype');
+    src: local('Inter SemiBold'), local('Inter-SemiBold'), url(Inter-SemiBold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Inter";
     font-weight: 600;
     font-style: italic;
-    src: local('Inter SemiBold Italic'), local('Inter-SemiBoldItalic'), url(media/Inter-SemiBoldItalic.ttf) format('truetype');
+    src: local('Inter SemiBold Italic'), local('Inter-SemiBoldItalic'), url(Inter-SemiBoldItalic.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Inter";
     font-weight: 300;
     font-style: normal;
-    src: local('Inter Light'), local('Inter-Light'), url(media/Inter-Light.ttf) format('truetype');
+    src: local('Inter Light'), local('Inter-Light'), url(Inter-Light.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Inter";
     font-weight: 300;
     font-style: italic;
-    src: local('Inter Light Italic'), local('Inter-LightItalic'), url(media/Inter-LightItalic.ttf) format('truetype');
+    src: local('Inter Light Italic'), local('Inter-LightItalic'), url(Inter-LightItalic.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Inter";
     font-weight: 200;
     font-style: normal;
-    src : url(media/Inter-ExtraLight.ttf);
-    src: local('Inter ExtraLight'), local('Inter-ExtraLight'), url(media/Inter-ExtraLight.ttf) format('truetype');
+    src: local('Inter ExtraLight'), local('Inter-ExtraLight'), url(Inter-ExtraLight.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Inter";
     font-weight: 200;
     font-style: italic;
-    src : url(media/Inter-ExtraLightItalic.ttf);
-    src: local('Inter ExtraLight Italic'), local('Inter-ExtraLightItalic'), url(media/Inter-ExtraLightItalic.ttf) format('truetype');
+    src: local('Inter ExtraLight Italic'), local('Inter-ExtraLightItalic'), url(Inter-ExtraLightItalic.ttf) format('truetype');
 }
 
 /*Condensed*/
@@ -82,31 +97,35 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     font-family: "Roboto Slab";
     font-weight: 600;
     font-style: normal;
-    src: local('Roboto Slab SemiBold'), local('RobotoSlab-SemiBold'), url(media/RobotoSlab-SemiBold.ttf) format('truetype');
+    src: local('Roboto Slab SemiBold'), local('RobotoSlab-SemiBold'), url(RobotoSlab-SemiBold.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Roboto Slab";
     font-weight: 500;
     font-style: normal;
-    src: local('Roboto Slab Medium'), local('RobotoSlab-Medium'), url(media/RobotoSlab-Medium.ttf) format('truetype');
+    src: local('Roboto Slab Medium'), local('RobotoSlab-Medium'), url(RobotoSlab-Medium.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Roboto Slab";
     font-weight: 400;
     font-style: normal;
-    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(media/RobotoSlab-Regular.ttf) format('truetype');
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(RobotoSlab-Regular.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Roboto Slab";
     font-weight: 300;
     font-style: normal;
-    src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(media/RobotoSlab-Light.ttf) format('truetype');
+    src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(RobotoSlab-Light.ttf) format('truetype');
 }
+
 @font-face {
     font-family: "Roboto Slab";
     font-weight: 200;
     font-style: normal;
-    src: local('Roboto Slab ExtraLight'), local('RobotoSlab-ExtraLight'), url(media/RobotoSlab-ExtraLight.ttf) format('truetype');
+    src: local('Roboto Slab ExtraLight'), local('RobotoSlab-ExtraLight'), url(RobotoSlab-ExtraLight.ttf) format('truetype');
 }
 
 *{
@@ -122,7 +141,7 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
 @page :first {
   size: 210mm 297mm;
   /* background-image: linear-gradient(#e3e3e3,#e3e3e3 80%, #ffffff 10%); */
-  background-image: url(../cover/cover.jpg); 
+  background-image: url(../cover/cover.jpg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 210mm 297mm;
@@ -155,7 +174,7 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     color: #000;
     letter-spacing: 0.1pt;
     /*word-spacing: 1px;*/
-    background-image: linear-gradient(#670001,#670001);
+    background-image: linear-gradient(#8ACDB7,#8ACDB7);
     background-repeat: no-repeat;
     background-size: 80px 9px;
     background-position: 0 50%;
@@ -192,7 +211,7 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     line-height: 1.4;
     color: #000;
     letter-spacing: 0.1pt;
-    background-image: linear-gradient(#670001,#670001);
+    background-image: linear-gradient(#8ACDB7,#8ACDB7);
     background-repeat: no-repeat;
     background-size: 80px 9px;
     background-position: 100% 50%;
@@ -306,7 +325,7 @@ nav::before {
   content: "Contents";
   font-family: "Roboto Slab", sans-serif;
   font-size: 55px;
-  color: #670001;
+  color: #111111;
   font-weight: 600;
 }
 nav {
@@ -377,7 +396,7 @@ height: 100vh}
   /*text-align: center;*/
   font-family: "Roboto Slab", sans-serif;
   font-size: 55px;
-  color:#670001;
+  color:#111111;
   page-break-inside: avoid;
   page-break-after: avoid;
   text-transform: none;
@@ -395,7 +414,7 @@ height: 100vh}
   text-transform: none;
   counter-increment: chapter;
   height: 10em;
-  background-image: linear-gradient(#670001,#670001);
+  background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
@@ -431,7 +450,7 @@ h4.bookversion {
 h1.part {
   page-break-before: always!important;
   page-break-after: always!important;
-  color: #670001;
+  color: #111111;
   margin-top:0;
 }
 h1.part:before {
@@ -439,7 +458,7 @@ h1.part:before {
   text-transform: none;
   counter-increment: chapter;
   height: 1em;
-  background-image: linear-gradient(#670001,#670001);
+  background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
@@ -453,7 +472,7 @@ h1.part:before {
   font-family: "Roboto Slab", sans-serif;
   string-set: chapter-title content(text);
   font-size: 55px;
-  color:#670001;
+  color:#111111;
   /*margin-top: 2em;*/
   page-break-before: always!important;
   page-break-inside: avoid;
@@ -474,7 +493,7 @@ h1.part:before {
   text-transform: none;
   counter-increment: chapter;
   height: 1em;
-  background-image: linear-gradient(#670001,#670001);
+  background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
@@ -482,7 +501,7 @@ h1.part:before {
 }
 .article-title:after{
   display: block;
-  background-image: linear-gradient(#670001,#670001);
+  background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 100%;
@@ -709,7 +728,7 @@ blockquote  p.att { text-align: right; }
 h2, h2 strong {
 font-family: "Inter", sans-serif;
 margin-top: 1.5em;
-color:#670001; /*rgb(25,43,83);*/
+color:#111111; /*rgb(25,43,83);*/
 }
 h3, h3 strong,
 h4, h4 strong,
@@ -723,7 +742,7 @@ h6 {
 h1 {
   font-family: "Inter", sans-serif;
   font-size: 55px; /* 2.233rem */
-  color:#670001; /*rgb(25,43,83);*/
+  color:#111111; /*rgb(25,43,83);*/
   margin-bottom: 1em;
   margin-top: 1em;
   page-break-inside: avoid;
@@ -923,7 +942,7 @@ ul.dashed > li {
 ul.dashed > li:before {
   content: "-";
   text-indent: -20px;
-  color:#670001;
+  color:#111111;
   font-size: 120%;
   font-weight: 700;
 }
@@ -998,7 +1017,7 @@ table td {
   border-left: 0;
   border-right: 0;
   /*text-align: right;*/
-  border-bottom: 1px solid #670001;
+  border-bottom: 1px solid #111111;
   padding: 1.1em 0.5em;
 }
 
@@ -1067,7 +1086,7 @@ th {
   padding: 1em;
   font-style: italic;
   font-weight: bold;
-  background-color: #2062af;/*#670001*/
+  background-color: #2062af;/*#111111*/
   border-bottom: 2px solid #20215E;
 }
 
@@ -1222,7 +1241,7 @@ ol.upper-latin {
     display: block;
     font-family: "Inter", sans-serif;
     font-size: 1.395rem;
-    color:#670001;
+    color:#111111;
     font-weight: 600;
     border-bottom: 1px solid black;
     height: 2em;
