@@ -405,7 +405,7 @@ section.content > aside.nav > .page_toc ul a:hover span {
   color: #EE868F !important;
 }
 /*aside.nav > .page_toc .active {
-  border-left: 5px solid #670001 !important;
+  border-left: 5px solid #111111 !important;
   color: inherit !important;
   padding-left: 10px;
   font-weight: bold;
