@@ -3,9 +3,9 @@
     --base-font-size                                  : 16px;
     --base-font-family                                : "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif; /*--base-color: var(--mono-shade2);*/
     --link-color                                      : #000; /*#0A75BD*/
-    --link-border-color                               : #670001;
-    --link-color--hover                               : #670001;
-    --link-border-bottom--hover                       : #670001;
+    --link-border-color                               : #8ACDB7;
+    --link-color--hover                               : #8ACDB7;
+    --link-border-bottom--hover                       : #8ACDB7;
     --link-text-decoration                            : underline;
     --link-text-decoration-color                      : #000;
     --sidebar-name-color                              : #000;
@@ -13,14 +13,14 @@
     --sidebar-nav-link-color--active                  : #4D4D4D;
     --cover-heading-font-size-max                     : 40;
     --cover-heading-font-size-min                     : 34;
-    --blockquote-border-color                         : #670001;
+    --blockquote-border-color                         : #8ACDB7;
     --heading-font-family                             : "Playfair Display", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
     --heading-h1-font-size: 3rem;
     --heading-h1-font-weight: 600;
-    --heading-h1-color: #670001;
+    --heading-h1-color: #111111;
     --heading-h1-margin: 10rem 0 3rem 0;
     --heading-h2-font-size: 2rem; /*var(--font-size-xl)*/
-    --heading-h2-color: #670001;
+    --heading-h2-color: #111111;
     --heading-h3-border-style: solid;
     --heading-h3-font-size: 1.6rem; /*var(--font-size-l)*/
     --heading-h3-font-weight: 400;
@@ -32,8 +32,8 @@
     --heading-h6-font-size: 0.9rem; /*var(--font-size-xs)*/
     --sidebar-nav-link-font-weight--active            : bold;
     --sidebar-border-color                            : rgb(174,182,187);
-    --sidebar-nav-link-border-color--active           : #670001;
-    --sidebar-nav-link-border-color--hover            : #670001;
+    --sidebar-nav-link-border-color--active           : #8ACDB7;
+    --sidebar-nav-link-border-color--hover            : #8ACDB7;
     --sidebar-nav-link-color--active : #000;
     --sidebar-nav-link-color--hover : #000;
     --sidebar-nav-link-font-weight--hover             : 500;
@@ -85,7 +85,7 @@ background-repeat: no-repeat;*/
   text-transform: none;
   counter-increment: chapter;
   height: 3em;
-  background-image: linear-gradient(#670001,#670001);
+  background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
@@ -98,7 +98,7 @@ background-repeat: no-repeat;*/
 .content .markdown-section div.titlepage:after {
   display: block;
   height: 1em;
-  background-image: linear-gradient(#670001,#670001);
+  background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
