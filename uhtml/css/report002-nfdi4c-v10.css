@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-font-family: "Playfair Display";
-font-weight: bold;
-font-style: normal;
-src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url(media/PlayfairDisplay-Bold.ttf) format('ttf');
-}
+/*Inter - body*/
 
 @font-face {
 font-family: "Inter";
@@ -91,7 +86,51 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     src: local('Inter ExtraLight Italic'), local('Inter-ExtraLightItalic'), url(media/Inter-ExtraLightItalic.ttf) format('truetype');
 }
 
-/*Condensed*/
+/*Playfair Display - headers*/
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-style: normal;
+  src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url(media/PlayfairDisplay-Bold.ttf) format('ttf');
+  }
+
+  @font-face {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-style: normal;
+    src: local('Roboto Slab SemiBold'), local('RobotoSlab-SemiBold'), url(media/RobotoSlab-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-style: normal;
+    src: local('Roboto Slab Medium'), local('RobotoSlab-Medium'), url(media/RobotoSlab-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-style: normal;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(media/RobotoSlab-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 300;
+    font-style: normal;
+    src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(media/RobotoSlab-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 200;
+    font-style: normal;
+    src: local('Roboto Slab ExtraLight'), local('RobotoSlab-ExtraLight'), url(media/RobotoSlab-ExtraLight.ttf) format('truetype');
+}
+
+/*Roboto Slab - secondary headers*/
 
 @font-face {
     font-family: "Roboto Slab";
