@@ -116,20 +116,6 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(media/PlayfairDisplay-Regular.ttf) format('truetype');
 }
 
-@font-face {
-    font-family: "Playfair Display";
-    font-weight: 300;
-    font-style: normal;
-    src: local('Playfair Display Light'), local('PlayfairDisplay-Light'), url(media/PlayfairDisplay-Light.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: "Playfair Display";
-    font-weight: 200;
-    font-style: normal;
-    src: local('Playfair Display ExtraLight'), local('PlayfairDisplay-ExtraLight'), url(media/PlayfairDisplay-ExtraLight.ttf) format('truetype');
-}
-
 /*Roboto Slab - secondary headers*/
 
 @font-face {
