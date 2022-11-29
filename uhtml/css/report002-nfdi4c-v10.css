@@ -458,7 +458,7 @@ height: 100vh}
   background-size: 80px 9px;
   background-position: 0% 0%;
   padding-top: 1em;
-  color: #fff;
+  color: #0a0a0a;
   content:" ";/*here goes text*/
   font-size: 18px;
 }
@@ -466,23 +466,25 @@ height: 100vh}
 h2.booksubtitle {
   font-family: "Roboto Slab", sans-serif;
   font-size: 30px;
-  font-weight: 300!important;
-  color: #fff;
+  font-weight: 400!important;
+  color: #0a0a0a;
   margin: 0.1em 0 1em 0;
 
 }
 h3.bookauthor {
   font-family: "Roboto Slab", sans-serif;
   font-size: 20px;
-  color:#6B0003;
-  font-weight: 200!important;
+  color: #0a0a0a;
+  padding-top: 0.7em;
+  font-weight: 400!important;
 }
 
 h4.bookversion {
   font-family: "Roboto Slab", sans-serif;
   font-size: 20px;
-  color:#6B0003;
-  font-weight: 200!important;
+  color: #0a0a0a;
+  font-weight: 300!important;
+  padding-top: 0.3em;
   margin: 0.1em 0 1em 0;
 }
 
