@@ -7,7 +7,7 @@
     --link-color--hover                               : #8ACDB7;
     --link-border-bottom--hover                       : #8ACDB7;
     --link-text-decoration                            : underline;
-    --link-text-decoration-color                      : #8ACDB7;
+    --link-text-decoration-color                      : #302f2f;
     --sidebar-name-color                              : #ffffff;
     --sidebar-background                              : #000;
     --sidebar-nav-link-color--active                  : #ffffff;
@@ -38,7 +38,8 @@
     --sidebar-nav-link-color--hover : #8ACDB7;
     --sidebar-nav-link-font-weight--hover             : 500;
     --sidebar-nav-link-font-weight--active            : 500;
-    --sidebar-nav-link-font-weight                    : 400;
+    --sidebar-nav-link-font-weight                    : 500;
+    --sidebar-nav-link-color                          : #d8d8d8; /*thought I'd try this SW 2022-11-29 for nav*/
     --sidebar-width                                   : 22rem;
     --sidebar-nav-pagelink-background-position        : 3px 10px;
     --sidebar-nav-pagelink-background-position--active: 3px 10px; /*left center*/
@@ -58,6 +59,7 @@
 }
 .sidebar-nav li {
   padding-left: 0.8rem;
+  color: #d8d8d8; /*thought I'd try this SW 2022-11-29 for nav*/
 }
 .sidebar>h1 .app-name-link:hover{
   color: #ffffff;
@@ -185,6 +187,7 @@ border: none;
 .sidebar-nav  p {
   font-family: var(--base-font-family);
   line-height: 1.7;
+  color: #d8d8d8;  /*thought I'd try this SW 2022-11-29 for nav*/
 }
 
 .ready hr {
@@ -228,7 +231,7 @@ main > .content {
 }
 /* Links */
 .markdown-section a:visited {
-  color: #989898;
+  color: #8ACDB7;
 }
 .markdown-section a:visited.anchor  {
 color: var(--base-color);
@@ -252,7 +255,7 @@ color: var(--base-color);
 
 /*toc from Fidus*/
 .sidebar-nav #toc ol li {
- list-style-type: none;
+  list-style-type: none;
   margin-left: 0;
   padding-left: 0;
   font-size: 0.8rem;
@@ -269,7 +272,6 @@ color: var(--base-color);
   margin-left: 0em;
 }
 .sidebar-nav #toc ol ol li {
-    list-style-type: "- ";
     margin-left: 0.6em;
     margin-bottom:0;
 }
