@@ -444,7 +444,7 @@ height: 100vh}
   letter-spacing: 0pt;
   word-spacing: 1px;
   font-weight: 600;
-  max-width: 75%;
+  max-width: 100%;
   margin: 0;
   text-align: left;
 }
@@ -452,12 +452,12 @@ height: 100vh}
   display: block;
   text-transform: none;
   counter-increment: chapter;
-  height: 10em;
+  height: 7em;
   background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
-  padding-top: 1em;
+  padding-top: 0.5em;
   color: #0a0a0a;
   content:" ";/*here goes text*/
   font-size: 18px;
