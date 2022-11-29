@@ -7,10 +7,10 @@
     --link-color--hover                               : #8ACDB7;
     --link-border-bottom--hover                       : #8ACDB7;
     --link-text-decoration                            : underline;
-    --link-text-decoration-color                      : #000;
-    --sidebar-name-color                              : #000;
-    --sidebar-background                              : #e3e3e3;
-    --sidebar-nav-link-color--active                  : #4D4D4D;
+    --link-text-decoration-color                      : #8ACDB7;
+    --sidebar-name-color                              : #ffffff;
+    --sidebar-background                              : #000;
+    --sidebar-nav-link-color--active                  : #ffffff;
     --cover-heading-font-size-max                     : 40;
     --cover-heading-font-size-min                     : 34;
     --blockquote-border-color                         : #8ACDB7;
@@ -31,11 +31,11 @@
     --heading-h5-font-weight: 500;
     --heading-h6-font-size: 0.9rem; /*var(--font-size-xs)*/
     --sidebar-nav-link-font-weight--active            : bold;
-    --sidebar-border-color                            : rgb(174,182,187);
+    --sidebar-border-color                            : #8ACDB7;
     --sidebar-nav-link-border-color--active           : #8ACDB7;
     --sidebar-nav-link-border-color--hover            : #8ACDB7;
-    --sidebar-nav-link-color--active : #000;
-    --sidebar-nav-link-color--hover : #000;
+    --sidebar-nav-link-color--active : #8ACDB7;
+    --sidebar-nav-link-color--hover : #8ACDB7;
     --sidebar-nav-link-font-weight--hover             : 500;
     --sidebar-nav-link-font-weight--active            : 500;
     --sidebar-nav-link-font-weight                    : 400;
@@ -60,10 +60,10 @@
   padding-left: 0.8rem;
 }
 .sidebar>h1 .app-name-link:hover{
-  color: #000;
+  color: #ffffff;
 }
 .content strong {
-    color: inherit;
+    color: #ffffff;
 }
 
 /* Frontmatter*/
