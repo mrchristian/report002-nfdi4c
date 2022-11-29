@@ -362,7 +362,7 @@ video {
 }
 nav::before {
   content: "Contents";
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 55px;
   color: #111111;
   font-weight: 600;
@@ -433,7 +433,7 @@ background-repeat: no-repeat;*//*logo cover image*/
 height: 100vh}
 .booktitle {
   /*text-align: center;*/
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 55px;
   color:#111111;
   page-break-inside: avoid;
@@ -510,7 +510,7 @@ h1.part:before {
   page-break-before: always!important;
 }
 .article-title {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Playfair Display", serif;
   string-set: chapter-title content(text);
   font-size: 55px;
   color:#111111;
