@@ -166,12 +166,12 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
 @page :first {
   size: 210mm 297mm;
   /* background-image: linear-gradient(#e3e3e3,#e3e3e3 80%, #ffffff 10%); */
-  background-image: url(../../cover/cover.jpg);
+  background-image: url(../cover/cover.jpg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 210mm 297mm;
   display: flex;
-  margin-top: 297mm;
+  margin-top: 30mm;
   page-break-after: always;
     @bottom-left { content: normal; }
     @bottom-center { content: normal; }
@@ -416,7 +416,7 @@ div.titlepage {
 background-position: bottom;
 background-size: 100%;
 background-repeat: no-repeat;*//*logo cover image*/
-height: 100vh }
+height: 100vh}
 .booktitle {
   /*text-align: center;*/
   font-family: "Playfair Display", serif;
@@ -1090,12 +1090,12 @@ tr:first-of-type td {
   /*background-color: rgb(241,248,250);
   border-bottom: 2px solid rgb(15,100,167);*/
 }
-/* tr:nth-child(odd) {
+tr:nth-child(odd) {
   background-color: #FDD5A5;
 }
 tr:nth-child(even) {
   background-color: #fde5cd;
-} */
+}
 
 
 tr:last-of-type td {
