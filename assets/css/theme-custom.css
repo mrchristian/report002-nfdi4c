@@ -70,12 +70,9 @@
 }
 
 /* Frontmatter*/
-.content .markdown-section div.titlepage {/*background-image: url("https://raw.githubusercontent.com/mrchristian/Fidus-Book-Style-Report001/d6232786dc7e4c111f96bdf73d9d9e21916d6d17/images/image.jpg");
-background-position: bottom;
-background-size: 100%;
-background-repeat: no-repeat;*/
-  /* background-image: none;*/
-  height: 100%;
+.content .markdown-section div.titlepage {
+  /* background-image: none;
+  height: 100%;*/
 }
 
 .markdown-section h1.booktitle {
@@ -105,7 +102,7 @@ background-repeat: no-repeat;*/
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
-  margin-top: 1.5em;
+  margin-top: 18em;
   content:"";
   }
 .content h2.booksubtitle, .content h3.bookauthor,  .content h4.bookversion {
@@ -334,14 +331,14 @@ color: var(--base-color);
   border-right: 0;
   padding: 0em 1em;
   font-size: 12px;
-  /*color: black;*/
+  color: black;
   font-weight: 700;
   font-style: italic;
-}
+}*/
 .markdown-section td {
   border-color: var(--link-border-color);
 }
-.markdown-section tbody tr:nth-child(odd) {
+/*.markdown-section tbody tr:nth-child(odd) {
   background-color: #FDD5A5;
 }
 .markdown-section tbody tr:nth-child(even) {
