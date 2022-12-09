@@ -412,17 +412,15 @@ nav li a::after {
 }
 
 div.titlepage { height: 100vh; }
-/*Docsify*/
+/*Docsify
 .markdown-section div.titlepage {
     background-image: url(../../cover/cover.jpg);
-    /*-webkit-filter: drop-shadow( -5px 5px 5px rgb(165, 165, 165) );
-    filter: drop-shadow( -5px 5px 5px rgb(146, 8, 8)); */
     background-position: 0% 100%;
     background-size: 20%;
-    background-repeat: no-repeat;/*logo cover image*/
+    background-repeat: no-repeat;
     margin-top: 0mm;
     margin-bottom: 8em;
-}
+}*/
 .booktitle {
   /*text-align: center;*/
   font-family: "Playfair Display", serif;
@@ -1049,7 +1047,7 @@ table td {
   border-left: 0;
   border-right: 0;
   /*text-align: right;*/
-  border-bottom: 1px solid #111111;
+  border-bottom: 1px solid rgb(227,227,227);
   padding: 1.1em 0.5em;
 }
 
@@ -1097,10 +1095,10 @@ tr:first-of-type td {
   border-bottom: 2px solid rgb(15,100,167);*/
 }
 tr:nth-child(odd) {
-  background-color: #FDD5A5;
+  background-color: rgb(247,247,247);
 }
 tr:nth-child(even) {
-  background-color: #fde5cd;
+  background-color: #fff;
 }
 
 
@@ -1118,8 +1116,8 @@ th {
   padding: 1em;
   font-style: italic;
   font-weight: bold;
-  background-color: #2062af;/*#111111*/
-  border-bottom: 2px solid #20215E;
+  background-color: rgb(138, 205, 183);
+  border-bottom: 2px solid rgb(227,227,227);
 }
 
 th p { color: #fff; }
