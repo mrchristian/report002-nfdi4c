@@ -95,7 +95,7 @@
   font-size: 18px;
   font-weight: 300;
 }
-.content .markdown-section div.titlepage:after {
+/*.content .markdown-section div.titlepage:after {
   display: block;
   height: 1em;
   background-image: linear-gradient(#111111,#111111);
@@ -104,7 +104,7 @@
   background-position: 0% 0%;
   margin-top: 18em;
   content:"";
-  }
+  }*/
 .content h2.booksubtitle, .content h3.bookauthor,  .content h4.bookversion {
 color: #000;
 font-weight: 300;
@@ -335,8 +335,15 @@ color: var(--base-color);
   font-weight: 700;
   font-style: italic;
 }*/
+
+.markdown-section th {
+  background-color: var(--link-border-color);
+  border-color: var(--table-cell-border-color);  
+}
 .markdown-section td {
-  border-color: var(--link-border-color);
+    border-color: var(--table-cell-border-color);
+    border-style: solid;
+    border-width: var(--table-cell-border-width, 0);
 }
 /*.markdown-section tbody tr:nth-child(odd) {
   background-color: #FDD5A5;
