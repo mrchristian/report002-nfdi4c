@@ -1132,7 +1132,7 @@ tr.head + tr td {
 
 table + p {
   margin: 0 auto;
-  width: 95% !important;
+  width: 100% !important;
   margin-top: 0;
 }
 
